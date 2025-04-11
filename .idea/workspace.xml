@@ -5,28 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39d53455-76c1-444f-ab38-63e4430207cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/controller/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/games/GameEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/games/Games.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/games/HighCardGameEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/games/LowCardGameEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/Hand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/PlayingCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/Rank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/model/Suit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/view/CommandLineView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/view/GameSwingView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/view/GameViewable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/games/DeckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/model/IPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/model/NormalDeck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/model/SmallDeck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/model/TestDeck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/model/WinningPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/view/GameSwingPassiveView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/view/GameViewables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/games/GameEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/games/GameEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/games/Games.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/games/Games.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/games/HighCardGameEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/games/HighCardGameEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/games/LowCardGameEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/games/LowCardGameEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/model/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/view/GameViewable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/view/GameViewable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,25 +38,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2vS1XYlBZ6bmFq6fMAskCOCrJct" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Games.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/DELL E5580/Documents/Java learning/SOLID principles_OpenClassroom/CardGame/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Games.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/DELL E5580/Documents/Java learning/SOLID principles_OpenClassroom/CardGame/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
